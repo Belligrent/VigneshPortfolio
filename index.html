@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="#">Vignesh Alladi</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/Belligrent" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/vignesh-alladi-0a6a16251/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:vigneshalladi927@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2 class = "typing">Hi, I'm Vignesh Alladi</h2>
+        <p>
+I am a Computer Science student with a strong interest in web development. I enjoy creating responsive and user-friendly digital experiences using both frontend and backend technologies. I am committed to writing clean, efficient code that follows modern development standards. Motivated by curiosity and a desire to grow, I approach every challenge with a positive attitude and a willingness to learn.
+
+
+        </p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+  <i class="fa-solid fa-folder-open"></i>
+  <span>Projects</span>
+</a>
+  <a href="#certifications">
+  <i class="fa-solid fa-certificate"></i>
+  <span>Certifications</span>
+</a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+
+          
+
+          </a>
+          <a href="https://drive.google.com/drive/folders/1FV-2a9g5PqMt3zgkSA9fKR622zc2xojT">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>Resume</span>
+
+          
+
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images\Vignesh_profile.jpg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Proficient in front-end and back-end web development using technologies such as HTML, CSS, JavaScript, React.js, and Node.js. Skilled in programming languages like C and Java, with a strong understanding of object-oriented principles. Passionate about building responsive, user-friendly applications and continuously improving through hands-on learning and project experience.
+</div>  
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+        <div class="cell">
+          <img src="images/c.jpg" alt="react logo">
+          <span>C</span>
+        </div>
+         <div class="cell">
+          <img src="images/java.svg" alt="react logo">
+          <span>Java</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+ <section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  <div class="project-cards">
+   <!-- Resume Generator Card -->
+<div class="project-card">
+  <h3>Resume Generator</h3>
+  <p>
+    Created a resume generator application using React.js, leveraging the useState hook for state management.
+  </p>
+  <button class="read-more-btn" data-target="modal-resume">Read More</button>
+</div>
+
+<!-- Resume Generator Modal -->
+<div class="modal" id="modal-resume">
+  <div class="modal-content">
+    <span class="close-btn" data-target="modal-resume">&times;</span>
+    <h3>Resume Generator</h3>
+    <p>
+      Created a resume generator application using React.js, leveraging the useState hook for state management.
+      This tool allows users to input and update their resume information in real-time.
+      At the end of the process, users can download their completed resume.
+      The application provides an intuitive and efficient way to create professional resumes.
+    </p>
+  </div>
+</div>
+
+<!-- Notes App Card -->
+<div class="project-card">
+  <h3>Notes App</h3>
+  <p>
+    Developed a notes app with capabilities to store, update, and delete notes.
+  </p>
+  <button class="read-more-btn" data-target="modal-notes">Read More</button>
+</div>
+
+<!-- Notes App Modal -->
+<div class="modal" id="modal-notes">
+  <div class="modal-content">
+    <span class="close-btn" data-target="modal-notes">&times;</span>
+    <h3>Notes App</h3>
+    <p>
+      Developed a notes app with capabilities to store, update, and delete notes.
+      The front-end was built using React.js, offering a user-friendly and interactive interface.
+      The back-end was powered by Node.js and Express.js, ensuring efficient data handling and a seamless user experience.
+      This application provides a reliable platform for managing personal and professional notes effectively.
+    </p>
+  </div>
+</div>
+
+</section>
+  <!-- SECTION 4: Certifications -->
+<section id="certifications" class="certifications-section">
+  <h2>Certifications</h2>
+  <div class="cert-card-group">
+    <!-- Certificate 1 -->
+    <div class="cert-card">
+      <img src="images/aws.png" alt="AWS Certification">
+      <h3>AWS Cloud Practitioner</h3>
+      <a href="https://www.credly.com/badges/2fbd9d14-495e-44da-9f68-ce9c87746a5f/public_url" target="_blank">
+        <button class="view-cert-btn">View Certificate</button>
+      </a>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="cert-card">
+      <img src="images/redhat.png" alt="Red Hat Certification">
+      <h3>Red Hat Enterprise App Developer</h3>
+      <a href="https://www.credly.com/badges/5b20df12-ac0f-4613-a9b7-849ec20efd3c/public_url" target="_blank">
+        <button class="view-cert-btn">View Certificate</button>
+      </a>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="cert-card">
+      <img src="images\Automation Anywhere Certified Essentials RPA Professional.png" alt="Automation Anywhere Certified Essentials RPA Professional">
+      <h3>Automation Anywhere Certified Essentials RPA Professional</h3>
+      <a href="https://certificates.automationanywhere.com/88717af6-202f-40a9-b712-25126b578f34#acc.vrC7xYKl" target="_blank">
+        <button class="view-cert-btn">View Certificate</button>
+      </a>
+    </div>
+
+ 
+  </div>
+</section>
+
+
+
+    <!-- SECTION 5: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+       <div class="text">
+  I'm always open to discussing new opportunities, collaborations, or simply connecting with like-minded professionals. Whether you have a project in mind, a question, or just want to say hello, feel free to reach out. I’ll do my best to get back to you as soon as possible.
+</div>
+
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+<script>
+  // Open modal
+  document.querySelectorAll('.read-more-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const modalId = button.getAttribute('data-target');
+      document.getElementById(modalId).style.display = 'block';
+    });
+  });
+
+  // Close modal via close button
+  document.querySelectorAll('.close-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const modalId = button.getAttribute('data-target');
+      document.getElementById(modalId).style.display = 'none';
+    });
+  });
+
+  // Close modal by clicking outside
+  window.addEventListener('click', event => {
+    document.querySelectorAll('.modal').forEach(modal => {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
